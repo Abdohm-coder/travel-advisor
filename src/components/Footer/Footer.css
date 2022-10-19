@@ -1,0 +1,33 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(111, 111, 252, 0.8);
+    transition: all .5s ease-out;
+    z-index: 999;
+}
+
+.footer:hover {
+    background-color: rgb(111, 111, 252, 1);
+}
+
+.footer__container {
+    padding: 25px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__container > h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.footer__container > h4 >  strong {
+    color: black;
+    cursor: pointer;
+}
